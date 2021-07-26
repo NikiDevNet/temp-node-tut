@@ -46,16 +46,14 @@ server.listen(5000)
 // npm install -g <packageName>
 // sudo npm install -g <packageName> (mac)
 
-// 1:56
+// 2:20
 
 
 
-/* 
+
 const _ = require('lodash')
 
 const items = [1, [2, [3, [4]]]]
 const newItems = _.flattenDeep(items);
-console.log(newItems) */
-
-
-await octokit.request('GET /meta')
+console.log(newItems) 
+console.log('hello Niki')
